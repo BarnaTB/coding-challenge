@@ -4,7 +4,7 @@ from clean_numeric_string import clean_numeric_string
 from remove_duplicates import remove_duplicates
 
 
-# --- Problem 3: Map IDs to Specialties (Improved Error Handling) ---
+# --- Problem 3: Map IDs to Specialties ---
 
 def map_ids_to_specialties(string_ids: list[str], specialties: list[list]) -> list[str]:
     """
@@ -72,3 +72,17 @@ def map_ids_to_specialties(string_ids: list[str], specialties: list[list]) -> li
                 continue
 
     return remove_duplicates(result_specialty_names)
+
+# Example usage:
+list_of_ids = ["7-623", "8235", "8235", "7-623"]
+list_of_specialties = [
+    [1381, "front-end web development"],
+    [8235, "data engineering"],
+    [3434, "API design"],
+    [7623, "security"],
+    [9153, "UX"]
+]
+
+if __name__ == "__main__":
+    result = map_ids_to_specialties(list_of_ids, list_of_specialties)
+    print(result)  # Output: ['data engineering', 'security']

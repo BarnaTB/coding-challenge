@@ -10,6 +10,9 @@ This submission contains solutions and unit tests for the three provided problem
 ### Execution:
 - Open your terminal or command prompt.
 - Navigate to the directory where you saved the file.
+- Open the map_specialties.py file in a text editor or IDE.
+- Run the script using the Python interpreter: `python map_specialties.py`
+- The script will execute and print the results of the mapping process. You can modify the input data in the script to test different scenarios.
 - Run the test file using the Python interpreter: `python tests.py`
 - The unit tests will automatically run. Output indicating test results and any warnings about malformed specialty data (if present in tests) will be printed.
 

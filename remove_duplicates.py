@@ -1,5 +1,10 @@
-# --- Problem 2: Remove Duplicates from List (Refactored) ---
-import collections
+# --- Problem 2: Remove Duplicates from List ---
+import collections, sys
+
+if sys.version_info[0] >= 3 and sys.version_info[1] >= 3:
+    from collections import abc
+else:
+    import abc
 
 
 def remove_duplicates(input_list: list) -> list:

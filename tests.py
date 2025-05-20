@@ -1,6 +1,6 @@
 import unittest, sys
 
-from map_ids_to_specialties import clean_numeric_string, remove_duplicates, map_ids_to_specialties
+from map_specialties import clean_numeric_string, remove_duplicates, map_ids_to_specialties
 
 
 class TestCodingChallenge(unittest.TestCase):
